@@ -1,178 +1,44 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zulm AI Team</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1>Zulm <span>AI</span></h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="team.html" class="active">Team</a></li>
+    </ul>
+  </nav>
 
-body {
-  background-color: #0f0f10;
-  color: #f2f2f2;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+  <section class="team-section">
+    <h2>Meet Our Team</h2>
+    <div class="team-container">
+      <div class="member-card">
+        <img src="https://via.placeholder.com/150" alt="Mansour">
+        <h3>Mansour</h3>
+        <p>Student</p>
+      </div>
+      <div class="member-card">
+        <img src="https://via.placeholder.com/150" alt="Abdulaziz Al-Malki">
+        <h3>Abdulaziz Al-Malki</h3>
+        <p>Teacher</p>
+      </div>
+      <div class="member-card">
+        <img src="https://via.placeholder.com/150" alt="Eid">
+        <h3>Eid</h3>
+        <p>Developer</p>
+      </div>
+    </div>
+  </section>
 
-/* Navbar */
-.navbar {
-  background: #1a1a1b;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.navbar h1 span {
-  color: #0dd6b8;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar a {
-  color: #f2f2f2;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.navbar a.active,
-.navbar a:hover {
-  color: #0dd6b8;
-}
-
-/* Hero Section */
-.hero {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero h2 span {
-  color: #0dd6b8;
-}
-
-.btn {
-  background: #0dd6b8;
-  color: #0f0f10;
-  padding: 10px 25px;
-  border-radius: 6px;
-  text-decoration: none;
-  margin-top: 20px;
-  display: inline-block;
-  font-weight: bold;
-}
-
-/* Chat Section */
-.chat-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.chat-box {
-  background: #1a1a1b;
-  flex: 1;
-  padding: 20px;
-  border-radius: 10px;
-  overflow-y: auto;
-  margin-bottom: 15px;
-}
-
-.message {
-  margin: 10px 0;
-  padding: 10px 15px;
-  border-radius: 8px;
-  max-width: 70%;
-}
-
-.user {
-  background: #0dd6b8;
-  color: #000;
-  align-self: flex-end;
-  text-align: right;
-}
-
-.bot {
-  background: #333;
-  color: #fff;
-  align-self: flex-start;
-}
-
-.input-area {
-  display: flex;
-  gap: 10px;
-}
-
-.input-area input {
-  flex: 1;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background: #222;
-  color: #fff;
-}
-
-.input-area button {
-  background: #0dd6b8;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #000;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Team Section */
-.team-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.team-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 40px;
-}
-
-.member-card {
-  background: #1a1a1b;
-  border-radius: 10px;
-  padding: 20px;
-  width: 220px;
-  transition: transform 0.3s;
-}
-
-.member-card:hover {
-  transform: translateY(-5px);
-}
-
-.member-card img {
-  border-radius: 50%;
-  margin-bottom: 15px;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #1a1a1b;
-  font-size: 14px;
-  color: #ccc;
-}
+  <footer>
+    <p>© 2025 Zulm AI. All rights reserved.</p>
+  </footer>
+</body>
+</html>
